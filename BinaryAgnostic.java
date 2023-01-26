@@ -28,7 +28,7 @@ public class BinaryAgnostic{
                     start=mid+1;
                 } 
             }
-            else{//other wise this will execute
+            else{//if the array is in descending order then this will execute.
                 if(target>arr[mid]){
                     start=mid+1;
                 }
