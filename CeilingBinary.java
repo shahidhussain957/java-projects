@@ -7,6 +7,9 @@ public class CeilingBinary {
     }
     public static int Binary(int arr[],int target){
         //but what if the target element is greatet than the greatest element of an array.
+       if(target>arr.length-1){
+        return -1
+       }
         int start=0;
         int end=arr.length-1;
         while(start<=end){
