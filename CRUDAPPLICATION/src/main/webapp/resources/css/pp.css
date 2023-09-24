@@ -1,0 +1,10 @@
+@charset "UTF-8";
+*{
+	border-box:box-sizing;
+}
+body{
+	background-color:blue;
+}
+h1{
+	color:blue;
+}
